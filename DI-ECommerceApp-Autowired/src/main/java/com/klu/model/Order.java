@@ -9,9 +9,9 @@ public class Order {
 	private String customerName;
 	private int quantity;
 	@Autowired //please inject the product class into order class
-	private Product product;//object declaration
+	private Product product; //object declaration
 	
-	public Order() {
+	public Order() { // will take care of creation of object
 		this.orderId=2005;
 		this.customerName="Anusha";
 		this.quantity=3;
